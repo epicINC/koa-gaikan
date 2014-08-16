@@ -5,11 +5,11 @@ koa-gaikan
 ###Usage
 
 Install
-'''bash
+```bash
 <del>npm install koa-gaikan</del>
-'''
+```
 
-'''js
+```js
 var koa = require('koa');
 var router = require('koa-router');
 var gaikan = require('koa-gaikan');
@@ -28,5 +28,5 @@ app.get('/', function *()
 
 
 app.listen(3000);
-'''
+```
 
