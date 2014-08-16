@@ -5,9 +5,11 @@ koa-gaikan
 ###Usage
 
 Install
+<del>
 ```bash
-<del>npm install koa-gaikan</del>
+npm install koa-gaikan
 ```
+</del>
 
 ```js
 var koa = require('koa');
