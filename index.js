@@ -4,13 +4,10 @@ var mixin = require('utils-merge');
 var engine = require('gaikan');
 var path = require('path');
 // merge
-// path.join(__dirname, 'views')
 
 
 module.exports = renderer;
 exports.alt = engine.alterant;
-
-//console.log(path.dirname(module.parent.filename));
 
 
 function renderTpl(path, locals)
@@ -39,7 +36,7 @@ function renderer(app, settings)
     this.body = html;
   }
 
-  settings = mixin(settings || {}, { cache: true, zip: true, ext: ['gaikan', 'htm', 'html'], dir: ['views', '.']});
+  settings = mixin(settings || {}, { cache: true, zip: true, ext: ['gaikan', 'htm', 'html'], dir: ['views', '.'], root: path.dirname(module.parent.filename)});
 
 
   if (settings.hasOwnProperty('cache'))

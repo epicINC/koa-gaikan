@@ -7,7 +7,7 @@ var app = koa();
 
 
 app.use(router(app));
-app.use(gaikan(app,  {root: __dirname}));
+app.use(gaikan(app));
 
 
   app.get('/', function *()
