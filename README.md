@@ -4,6 +4,10 @@ koa-gaikan
 
 ###Usage
 
+```base
+npm install koa-gaikan
+```
+
 ```js
 var koa = require('koa');
 var router = require('koa-router');

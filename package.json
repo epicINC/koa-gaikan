@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/slightboy/koa-gaikan.git"
+    "url": "https://github.com/epicINC/koa-gaikan.git"
   },
   "bugs": {
-    "url": "https://github.com/slightboy/koa-gaikan/issues"
+    "url": "https://github.com/epicINC/koa-gaikan/issues"
   }
 }
